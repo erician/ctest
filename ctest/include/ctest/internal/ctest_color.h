@@ -4,6 +4,6 @@
 #define RED     "\x1B[31m"
 #define GREEN   "\x1B[32m"
 #define NORMAL  "\x1B[0m"
-#define BLUE    "\x1B[34m"
+#define YELLOW  "\x1B[33m"
 
 #endif

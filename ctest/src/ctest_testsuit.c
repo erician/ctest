@@ -43,8 +43,8 @@ void register_test(struct TestSuit *testsuit, char * testsuit_name, \
 
 void run_tests(struct TestSuit *testsuit) {
     struct Test *test;
-    printf("start to run testsuit: %s%s%s\n", BLUE, \
-        testsuit->testsuit_name, BLUE);
+    printf("start to run testsuit: %s%s%s\n", YELLOW, \
+        testsuit->testsuit_name, NORMAL);
     test = testsuit->tests;
     while(test != (void*)0) {
         test->testfun();
